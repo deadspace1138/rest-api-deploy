@@ -150,8 +150,8 @@ app.options('/movies/:id', (req, res) => {
   res.send(200)
 })
 
-// const PORT = process.env.PORT ?? 1234
-const PORT = 1234
+const PORT = process.env.PORT ?? 1234
+// const PORT = 1234
 
 app.listen(PORT, () => {
   console.log(`server listening on port http://localhost:${PORT}`)
